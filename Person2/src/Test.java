@@ -1,30 +1,27 @@
 
 public class Test {
 	
-	public static void main(String[] args){
+	public static void main(String[] args) {
+		
 		Person taro = new Person();
-		
-		taro.name="taro";
-		taro.age=18;
-		
+		taro.name ="taro";
+		taro.age = 18;
 		System.out.println(taro.name);
 		System.out.println(taro.age);
 		
 		Person jiro = new Person("jiro",20);
-		
 		System.out.println(jiro.name);
 		System.out.println(jiro.age);
 		
 		Person saburo = new Person("saburo");
-		
 		System.out.println(saburo.name);
 		System.out.println(saburo.age);
 		
-		Person u = new Person(25);
-		System.out.println(u.name);
-		System.out.println(u.age);
+		Person un = new Person(25);
+		System.out.println(un.name);
+		System.out.println(un.age);
 		
-		Person hanako = new Person("hanako",17);
+		Person hanako = new Person(17,"hanako");
 		System.out.println(hanako.name);
 		System.out.println(hanako.age);
 	}
