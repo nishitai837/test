@@ -1,4 +1,5 @@
 
+import java.io.IOException;
 import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
@@ -13,7 +14,7 @@ public class TestServlet extends HttpServlet {
 		super();
 	}
 
-	protected void doGet (HttpServletRequest request, HttpServletResponse response) throws ServletException. IOException{
+	protected void doGet (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		request.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=UTF-8");
 
@@ -29,7 +30,7 @@ public class TestServlet extends HttpServlet {
 
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOExcption{
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		request.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=UTF-8");
 
