@@ -36,12 +36,12 @@ public class MySQLServlet extends HttpServlet {
 		out.println("<body>");
 
 		Connection conn = null;
-		String url = "jdbc:mysql://localost/testdb";
+		String url = "jdbc:mysql://localhost/testdb";
 		String user = "root";
 		String password = "mysql";
 
 		try{
-			Class.forName("com.mysqlmjdbc.Driver").newInstance();
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
 			conn = DriverManager.getConnection(url,user,password);
 
 			Statement stmt = conn.createStatement();
@@ -74,8 +74,8 @@ public class MySQLServlet extends HttpServlet {
 				out.println("SQLException:"+e.getMessage());
 			}
 		}
-		out.println("</body");
-		out.println("</html");
+		out.println("</body>");
+		out.println("</html>");
 
 
 	}

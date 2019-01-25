@@ -11,3 +11,4 @@
 2019-01-24 19:28:02,103 [Worker-8] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2019-01-24 21:06:52,110 [Worker-7] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2019-01-24 21:15:40,641 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-01-25 19:16:31,076 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
