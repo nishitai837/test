@@ -8,7 +8,7 @@ import com.internousdev.login.dto.LoginDTO;
 import com.internousdev.login.util.DBConnector;
 
 public class LoginDAO {
-	public LoginDTO select(String nme,String password) throws SQLException{
+	public LoginDTO select(String name,String password) throws SQLException{
 		LoginDTO dto=new LoginDTO();
 		DBConnector db =new DBConnector();
 		Connection con =db.getConnection();
@@ -20,7 +20,7 @@ public class LoginDAO {
 		ResultSet rs=ps.executeQuery();
 		if(rs.next()) {
 			dto.setName(rs.getString("user_name"));
-			dto.setPassword(rs.getPassword("password"));
+			dto.setPassword(rs.getString("password"));
 		}
 		}catch (SQLException e) {
 			e.printStackTrace();
