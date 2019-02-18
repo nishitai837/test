@@ -1,10 +1,12 @@
 package com.internousdev.webproj3.dao;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import com.internousdev.webproj3.util.DBConnector;
-import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.PreparedStatement;
+
+
 
 public class TestDAO {
 	public int insert(String username, String password) {
