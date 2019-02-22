@@ -40,12 +40,12 @@ public class InquiryCompleteDAO {
 		return inquiryDTOList;
 	}
 
-	public int insert (String name,String qtype, String body){
+	public int insert (String name, String qtype, String body){
 		int ret = 0;
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
 
-		String sql = "insert into inquiry value(?,?,?)";
+		String sql = "insert into inquiry values(?,?,?)";
 		try{
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setString(1, name);

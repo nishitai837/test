@@ -46,6 +46,9 @@ public class InquiryCompleteAction extends ActionSupport {
 	public void setBody(String body){
 		this.body = body;
 	}
+	public List<InquiryDTO> getInquiryDTOList(){
+		return inquiryDTOList;
+	}
 	public void setInquiryDTOList(List<InquiryDTO> inquiryDTOList){
 		this.inquiryDTOList = inquiryDTOList;
 	}
