@@ -99,6 +99,24 @@
 <entry path="C:\pleiades\eclipse\jre\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="/private/var/folders/_5/jlfwmpz55w11tgy5j2m2815c0000gn/T/AppTranslocation/2E1D3F5E-8257-4F55-A86A-ACC3D70076A4/d/Eclipse_4.7.3.app/Contents/java/8/Home" version="1.8.0_162">
+<bootpath>
+<entry path="/private/var/folders/_5/jlfwmpz55w11tgy5j2m2815c0000gn/T/AppTranslocation/2E1D3F5E-8257-4F55-A86A-ACC3D70076A4/d/Eclipse_4.7.3.app/Contents/java/8/Home/jre/lib/resources.jar"/>
+<entry path="/private/var/folders/_5/jlfwmpz55w11tgy5j2m2815c0000gn/T/AppTranslocation/2E1D3F5E-8257-4F55-A86A-ACC3D70076A4/d/Eclipse_4.7.3.app/Contents/java/8/Home/jre/lib/rt.jar"/>
+<entry path="/private/var/folders/_5/jlfwmpz55w11tgy5j2m2815c0000gn/T/AppTranslocation/2E1D3F5E-8257-4F55-A86A-ACC3D70076A4/d/Eclipse_4.7.3.app/Contents/java/8/Home/jre/lib/sunrsasign.jar"/>
+<entry path="/private/var/folders/_5/jlfwmpz55w11tgy5j2m2815c0000gn/T/AppTranslocation/2E1D3F5E-8257-4F55-A86A-ACC3D70076A4/d/Eclipse_4.7.3.app/Contents/java/8/Home/jre/lib/jsse.jar"/>
+<entry path="/private/var/folders/_5/jlfwmpz55w11tgy5j2m2815c0000gn/T/AppTranslocation/2E1D3F5E-8257-4F55-A86A-ACC3D70076A4/d/Eclipse_4.7.3.app/Contents/java/8/Home/jre/lib/jce.jar"/>
+<entry path="/private/var/folders/_5/jlfwmpz55w11tgy5j2m2815c0000gn/T/AppTranslocation/2E1D3F5E-8257-4F55-A86A-ACC3D70076A4/d/Eclipse_4.7.3.app/Contents/java/8/Home/jre/lib/charsets.jar"/>
+<entry path="/private/var/folders/_5/jlfwmpz55w11tgy5j2m2815c0000gn/T/AppTranslocation/2E1D3F5E-8257-4F55-A86A-ACC3D70076A4/d/Eclipse_4.7.3.app/Contents/java/8/Home/jre/lib/jfr.jar"/>
+<entry path="/private/var/folders/_5/jlfwmpz55w11tgy5j2m2815c0000gn/T/AppTranslocation/2E1D3F5E-8257-4F55-A86A-ACC3D70076A4/d/Eclipse_4.7.3.app/Contents/java/8/Home/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/private/var/folders/_5/jlfwmpz55w11tgy5j2m2815c0000gn/T/AppTranslocation/2E1D3F5E-8257-4F55-A86A-ACC3D70076A4/d/Eclipse_4.7.3.app/Contents/java/8/Home/jre/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/private/var/folders/_5/jlfwmpz55w11tgy5j2m2815c0000gn/T/AppTranslocation/2E1D3F5E-8257-4F55-A86A-ACC3D70076A4/d/Eclipse_4.7.3.app/Contents/java/8/Home/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 <libraryInfo home="/Users/nishimurataisuke/Desktop/Eclipse_4.7.3.app/Contents/java/8/Home" version="1.8.0_162">
 <bootpath>
 <entry path="/Users/nishimurataisuke/Desktop/Eclipse_4.7.3.app/Contents/java/8/Home/jre/lib/resources.jar"/>
