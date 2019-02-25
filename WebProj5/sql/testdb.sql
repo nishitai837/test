@@ -1,5 +1,5 @@
 drop database if exists testdb;
-create database tesstdb;
+create database testdb;
 use testdb;
 
 create table users(
