@@ -13,15 +13,16 @@ import com.opensymphony.xwork2.ActionSupport;
 public class HelloStrutsAction extends ActionSupport implements SessionAware{
 	private List<HelloStrutsDTO> helloStrutsDTOList = new ArrayList<HelloStrutsDTO>();
 	private Map<String, Object> session;
-	
+
 	public String execute() {
 		String ret = ERROR;
 		HelloStrutsDAO dao = new HelloStrutsDAO();
-		
+
 		helloStrutsDTOList = dao.select();
-		
+
 		if(helloStrutsDTOList.size() > 0) {
 			session.put("helloStrutsDTOList",helloStrutsDTOList);
+
 			ret=SUCCESS;
 		}else {
 			ret=ERROR;
@@ -32,6 +33,7 @@ public class HelloStrutsAction extends ActionSupport implements SessionAware{
 		return session;
 	}
 	public void setSession(Map<String, Object> session) {
+		System.out.println("setSession");
 		this.session = session;
 	}
 

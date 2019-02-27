@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="test/css" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
 <title>HelloStruts</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
 		<th>PASSWORD</th>
 		<th>RESULT</th>
 	</tr>
-	
+
 	<s:iterator value="#session.helloStrutsDTOList">
 		<tr>
 		<td><s:property value="userId"/></td>
