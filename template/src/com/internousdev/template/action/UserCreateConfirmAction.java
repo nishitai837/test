@@ -13,10 +13,10 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 	private String userName;
 	public Map<String,Object>session;
 	private String errorMessage;
-	
+
 	public String execute() {
 		String result = SUCCESS;
-		
+
 		if(!(loginUserId.equals(""))
 			&&!(loginPassword.equals(""))
 			&&!(userName.equals(""))) {
@@ -24,7 +24,7 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 			session.put("loginPassword", loginPassword);
 			session.put("userName", userName);
 		}else {
-			setErrorMessage("未入力の盲目があります。");
+			setErrorMessage("未入力の項目があります。");
 			result=ERROR;
 		}
 		return result;
@@ -35,7 +35,7 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 	public void setLoginUserId(String loginUserId) {
 		this.loginUserId = loginUserId;
 	}
-	
+
 	public String getLoginPassword() {
 		return loginPassword;
 	}
